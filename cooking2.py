@@ -1,3 +1,4 @@
+# converts no of teaspoons to mls
 tea_spn = input("How many teaspoons of oil are you using? ")
 ml = float(tea_spn) * 4.929
 print(str(tea_spn) + " teaspoons is " + str(round(ml,2)) + " milliliters.")
@@ -6,6 +7,7 @@ if ml > 100:
     print("This is too much for cooking!")
    
 print()
+# calculates age in 30 years time
 age = input("What is your age? ")
 age_2050 = int(age) + 30
 print("Today, you are " + age + " years old.")

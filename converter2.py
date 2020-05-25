@@ -1,3 +1,4 @@
+# converts temperature from Celsius to Fahrenheit
 def temp_convert(celsius):
     fahrenheit = (celsius * 9/5) + 32
     return fahrenheit

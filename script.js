@@ -1,5 +1,5 @@
 var firstNum = 110;
-var secNum = 120;
+var secNum = 125;
 
 if (firstNum > 10 && secNum > 10) {
     console.log("Both numbers are greater than 10.");
